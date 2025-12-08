@@ -6,12 +6,12 @@ Aviation Accidents Analysis – ETL, Visualization & Insights
 
 This project focuses on analyzing global aviation accident data using a complete ETL pipeline, detailed visualizations, and structured insights. It supports identifying accident trends across countries, operators, categories, aircraft types, and time periods, enabling data-driven decision-making and reporting.
 
-📊 Overview
+Overview
 
 The dataset includes aviation accidents recorded across several countries along with details such as date, operator, aircraft type, fatalities, location, and accident category.
 The objective of this analysis is to clean, transform, visualize, and derive insights that can support aviation safety reviews and reporting.
 
-🚀 Key Features
+Key Features
 
 Performed data cleaning, normalization, and validation on the raw dataset.
 
@@ -25,7 +25,7 @@ Created a slide deck summarizing findings for easy presentation.
 
 Produced a cleaned dataset ready for further modeling or reporting.
 
-🧩 Methodology
+Methodology
 
 Data Loading (Excel → Pandas DataFrame)
 
@@ -61,7 +61,7 @@ Operator safety index
 
 Slide Deck Creation for final presentation
 
-📍 Visualizations Included
+Visualizations Included
 
 Top 15 Countries by Accidents
 
@@ -73,7 +73,7 @@ Accident Category vs Damage Type Heatmap
 
 Additional supporting plots (distribution, counts, etc.)
 
-🧠 Technologies Used
+Technologies Used
 
 Python
 
@@ -87,7 +87,7 @@ PyCountry
 
 Jupyter Notebook / Python Scripts
 
-📈 Insights Generated
+Insights Generated
 Insight	Description
 Top Countries	Identified the 15 countries with the most accidents
 Year–Fatalities Correlation	Weak or moderate correlation patterns
