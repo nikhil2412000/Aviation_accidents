@@ -22,26 +22,40 @@ Produced a cleaned dataset ready for further modeling or reporting.
 
 # Methodology
 
-Data Loading (Excel → Pandas DataFrame)
-Data Cleaning & Standardization
-Fix column names
-Handle missing data
-Convert dates
-Extract year
-Create derived fields (e.g., damage_type)
-Exploratory Data Analysis & Visualization
-Top accident locations
-Global accident distribution
-Operator patterns
-Category-based accident behavior
-Insight Generation
-Fatality correlations
-Deadliest aircraft types
-Operator safety index
+## 1. Data Loading
 
-## Slide Deck Creation for final presentation
+Loaded Excel dataset using Pandas
+Initial inspection of rows and columns
 
-## Visualizations Included
+## 2. Data Cleaning & Standardization
+
+Standardized column names
+Removed duplicates
+Filled missing values
+Converted dates and extracted year
+Cleaned country names
+Converted fatalities to numeric values
+Added derived column: damage_type (Hull Loss / Repairable)
+
+## 3. Exploratory Data Analysis & Visualization
+
+Accident distribution across countries
+Global mapping of accident hotspots
+Operator-level accident patterns
+Category-wise accident behavior
+
+## 4. Insight Generation
+
+Correlation between year and fatalities
+Identification of deadliest aircraft types
+Operator safety comparison
+Dominant accident categories by country
+
+## 5. Slide Deck Creation
+
+Summarized results into a visually structured presentation
+
+# Visualizations Included
 
 Top 15 Countries by Accidents
 Interactive World Accident Map
@@ -49,7 +63,7 @@ Operator Treemap (Country → Operator)
 Accident Category vs Damage Type Heatmap
 Additional supporting plots (distribution, counts, etc.)
 
-## Technologies Used
+# Technologies Used
 
 Python
 Pandas, NumPy
@@ -58,12 +72,14 @@ Plotly Express
 PyCountry
 Jupyter Notebook / Python Scripts
 
-## Insights Generated
+# Insights Generated
 
-# Insight	Description
-Top Countries	Identified the 15 countries with the most accidents
-Year–Fatalities Correlation	Weak or moderate correlation patterns
-Deadliest Aircraft Types	Aircraft with highest per-accident fatality rates
-Operator Fatality Rankings	Operators with the highest total fatalities
-Safety Index	Fatalities per 100 accidents per operator
-Category Dominance	Most frequent accident category per country
+| Insight                         | Description                                                  |
+| ------------------------------- | ------------------------------------------------------------ |
+| **Top Countries**               | Identified the 15 countries with the highest accident counts |
+| **Year–Fatalities Correlation** | Weak/mild correlation between fatalities and year            |
+| **Deadliest Aircraft Types**    | Aircraft types with the highest fatality rate                |
+| **Operator Fatality Rankings**  | Operators with the highest total fatalities                  |
+| **Safety Index**                | Fatalities per 100 accidents per operator                    |
+| **Category Dominance**          | Most common accident category per country                    |
+
